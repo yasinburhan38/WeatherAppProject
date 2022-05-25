@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="WeatherAppProject.Views.WelcomePage"
+             >
+    <ContentPage.Content >
+        <Grid Background="{StaticResource backgroundColor}"
+                Grid.Row="1"
+                RowDefinitions="*, Auto"
+                RowSpacing="0">
+            <Image
+                    
+                    Grid.Row="0"
+                    Aspect="AspectFit"
+                    Source="Welcome.png"
+                    VerticalOptions="Start"
+                    Margin="65,40,65,40"
+                ></Image>
+            <StackLayout BackgroundColor="{StaticResource backgroundColor}" VerticalOptions="End"  >
+                <Label Text="Welkom op je weer app" FontFamily="lora" TextColor="White"  FontSize="40" HorizontalTextAlignment="Center" />
+                <Button
+                VerticalOptions="Center"
+                Text="gebruik je locatie"
+                TextColor="Black"
+                BackgroundColor="{StaticResource buttonColor}"
+                BorderWidth="3"
+                CornerRadius="15"
+                FontSize="20"
+               
+                Margin="60,30,60,5"
+                
+                
+                ></Button>
+                <Button
+                VerticalOptions="Center"
+                Text="ENTER LOCATIE"
+                TextColor="Black"
+                Padding="15"
+                BackgroundColor="{StaticResource buttonColor}"
+                BorderWidth="3"
+                CornerRadius="15"
+                FontSize="20"
+                Margin="100,5,100,50"
+                
+                
+                
+                ></Button>
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
