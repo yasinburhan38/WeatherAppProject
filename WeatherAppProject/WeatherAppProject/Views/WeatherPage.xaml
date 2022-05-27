@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com" xmlns:local="clr-namespace:WeatherAppProject.ViewModels"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="WeatherAppProject.Views.WeatherPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid Background="{StaticResource backgroundColor}"
+                
+                RowDefinitions="Auto, Auto, Auto, Auto, *, Auto, Auto, Auto, Auto"
+                RowSpacing="0">
+            <Label 
+                Grid.Row="0"
+                Text="Lommel"
+                Margin="20, 15, 0, 0"
+                TextColor="White"
+                FontFamily="lorabold"
+                FontSize="35"
+                Padding="0,10,10,0"
+                ></Label>
+            <Label 
+                Grid.Row="2"
+                Text="België"
+                Margin="20, -5, 0, 0"
+                TextColor="White"
+                FontFamily="lora"
+                FontSize="20"
+                
+                ></Label>
+            <Label 
+                Grid.Row="3"
+                Text= "{Binding DateTime,StringFormat='{0:dddd, d MMMM yyyy }'}"
+                Margin="20,2, 0, 0"
+                TextColor="White"
+                FontFamily="lora"
+                FontSize="12">
+                <Label.BindingContext>
+                <local:ClockViewModel />
+                </Label.BindingContext>
+
+                </Label>
+        </Grid>
+    </ContentPage.Content>
+
+
+</ContentPage>

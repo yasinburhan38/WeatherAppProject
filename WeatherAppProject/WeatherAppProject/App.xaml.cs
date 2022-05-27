@@ -19,7 +19,7 @@ namespace WeatherAppProject
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/WelcomePage");
+            await NavigationService.NavigateAsync("NavigationPage/WeatherPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -29,6 +29,7 @@ namespace WeatherAppProject
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<WelcomePage, WelcomePageViewModel>();
+            containerRegistry.RegisterForNavigation<WeatherPage, WeatherPageViewModel>();
         }
     }
 }

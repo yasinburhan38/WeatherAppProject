@@ -22,6 +22,7 @@
             <StackLayout BackgroundColor="{StaticResource backgroundColor}" VerticalOptions="End"  >
                 <Label Text="Welkom op je weer app" FontFamily="lora" TextColor="White"  FontSize="40" HorizontalTextAlignment="Center" />
                 <Button
+                Clicked="Button_Clicked"
                 VerticalOptions="Center"
                 Text="gebruik je locatie"
                 TextColor="Black"
@@ -44,6 +45,7 @@
                 CornerRadius="15"
                 FontSize="20"
                 Margin="100,5,100,50"
+                Clicked="Button_Clicke2"
                 
                 
                 
