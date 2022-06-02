@@ -5,6 +5,32 @@
     
     <Color x:Key="backgroundColor">#000C44</Color>
     <Color x:Key="buttonColor">#DFB300</Color>
+    <Color x:Key="PrimaryColor">#141417</Color>
+    <Color x:Key="PrimaryDarkColor">#141417</Color>
+    <Color x:Key="AccentColor">#FFBB00</Color>
+
+    <Color x:Key="FailColor">#D04C41</Color>
+    <Color x:Key="SuccessColor">#00AF49</Color>
+
+
+    <Color x:Key="LightPrimaryTextColor">#212121</Color>
+    <Color x:Key="LightSecondaryTextColor">#757575</Color>
+
+    <Color x:Key="LightPageBackgroundColor">#F0F0F0</Color>
+    <Color x:Key="LightCardBackgroundColor">#F5F5F5</Color>
+    <Color x:Key="LightCardUnselectedBackgroundColor">#E1E1E1</Color>
+
+    <Color x:Key="LightTransparentBackgroundColor">#99F0F0F0</Color>
+
+
+    <Color x:Key="DarkPrimaryTextColor">#F5F5F5</Color>
+    <Color x:Key="DarkSecondaryTextColor">#BDBDBD</Color>
+
+    <Color x:Key="DarkPageBackgroundColor">#141417</Color>
+    <Color x:Key="DarkCardBackgroundColor">#002952</Color>
+    <Color x:Key="DarkCardUnselectedBackgroundColor">#001A33</Color>
+
+    <Color x:Key="DarkTransparentBackgroundColor">#99003366</Color>
 
 
 </ResourceDictionary>

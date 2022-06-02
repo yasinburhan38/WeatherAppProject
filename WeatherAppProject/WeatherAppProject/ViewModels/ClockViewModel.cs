@@ -24,7 +24,7 @@ namespace WeatherAppProject.ViewModels
         public DateTime DateTime
         {
             set
-            {
+            { 
                 if (dateTime != value)
                 {
                     dateTime = value;
