@@ -4,12 +4,13 @@ using Prism.Navigation;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.CommunityToolkit.UI.Views;
 
 namespace WeatherAppProject.ViewModels
 {
     public class ViewModelBase : BindableBase, IInitialize, INavigationAware, IDestructible
     {
-        protected INavigationService NavigationService { get; private set; }
+        protected INavigationService _navigationService { get; set; }
 
         private string _title;
         public string Title
@@ -17,10 +18,12 @@ namespace WeatherAppProject.ViewModels
             get { return _title; }
             set { SetProperty(ref _title, value); }
         }
+        public LayoutState MainState { get; set; }
 
+        public bool HasNoInternetConnection { get; set; }
         public ViewModelBase(INavigationService navigationService)
         {
-            NavigationService = navigationService;
+            _navigationService = navigationService;
         }
 
         public virtual void Initialize(INavigationParameters parameters)
@@ -37,6 +40,7 @@ namespace WeatherAppProject.ViewModels
         {
 
         }
+        public virtual void OnAppearing() { }
 
         public virtual void Destroy()
         {

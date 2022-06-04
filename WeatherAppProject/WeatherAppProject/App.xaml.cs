@@ -1,7 +1,11 @@
 using Prism;
 using Prism.Ioc;
+using Prism.Unity;
+using WeatherAppProject.Core;
+using WeatherAppProject.Services.Location;
 using WeatherAppProject.ViewModels;
 using WeatherAppProject.Views;
+using Xamarin.Essentials;
 using Xamarin.Essentials.Implementation;
 using Xamarin.Essentials.Interfaces;
 using Xamarin.Forms;
@@ -20,28 +24,42 @@ using Xamarin.Forms;
 
 namespace WeatherAppProject
 {
-    public partial class App
+    public partial class App : PrismApplication
     {
+        public App() : this(null) { }
         public App(IPlatformInitializer initializer)
             : base(initializer)
         {
         }
 
+        public new static App Current => Application.Current as App;
+
         protected override async void OnInitialized()
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/WeatherPage");
+            var locations = await SecureStorage.GetAsync("locations");
+            if (locations != null)
+            {
+                await NavigationService.NavigateAsync($"/{nameof(NavigationPage)}/{nameof(WeatherPage)}");
+            }
+            else
+            {
+                await NavigationService.NavigateAsync($"/{nameof(NavigationPage)}/{nameof(WelcomePage)}");
+            }
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterInstance(new HttpClientFactory());
+            containerRegistry.Register<ILocationService, LocationService>();
             containerRegistry.RegisterSingleton<IAppInfo, AppInfoImplementation>();
+            
 
-            containerRegistry.RegisterForNavigation<NavigationPage>();
-            containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
-            containerRegistry.RegisterForNavigation<WelcomePage, WelcomePageViewModel>();
-            containerRegistry.RegisterForNavigation<WeatherPage, WeatherPageViewModel>();
+            containerRegistry.RegisterForNavigation<NavigationPage>(nameof(NavigationPage));
+            containerRegistry.RegisterForNavigation<WelcomePage, WelcomePageViewModel>(nameof(WelcomePage));
+            containerRegistry.RegisterForNavigation<WeatherPage, WeatherPageViewModel>(nameof(WeatherPage));
+            
         }
     }
 }
