@@ -4,6 +4,7 @@ using Prism.Unity;
 using WeatherAppProject.Core;
 using WeatherAppProject.Services.Location;
 using WeatherAppProject.ViewModels;
+using WeatherAppProject.ViewModels.Dialogs;
 using WeatherAppProject.Views;
 using Xamarin.Essentials;
 using Xamarin.Essentials.Implementation;
@@ -59,7 +60,8 @@ namespace WeatherAppProject
             containerRegistry.RegisterForNavigation<NavigationPage>(nameof(NavigationPage));
             containerRegistry.RegisterForNavigation<WelcomePage, WelcomePageViewModel>(nameof(WelcomePage));
             containerRegistry.RegisterForNavigation<WeatherPage, WeatherPageViewModel>(nameof(WeatherPage));
-            
+
+            containerRegistry.RegisterForNavigation<AddLocationDialogViewModel, AddLocationDialogViewModel>();
         }
     }
 }

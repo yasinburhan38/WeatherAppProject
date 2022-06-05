@@ -9,6 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WeatherAppProject.Services.Location;
 using WeatherAppProject.Views;
+using WeatherAppProject.Views.Dialogs;
 using Xamarin.CommunityToolkit.UI.Views;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -17,21 +18,26 @@ namespace WeatherAppProject.ViewModels
 {
     public class WelcomePageViewModel : ViewModelBase
     {   private ILocationService _locationService;
+        private IDialogService _dialogService;
         public string CurrentLocation { get; set; }
         public Command UseCurrentLocationCommand { get; set; }
         public Command AddLocationCommand { get; set; }
         public WelcomePageViewModel(INavigationService navigationService,
 
-            ILocationService locationService)
-            : base(navigationService)
+            ILocationService locationService,
+            IDialogService dialogService): base(navigationService)
         {
             _locationService = locationService;
+            _dialogService = dialogService;
+
 
 
 
             UseCurrentLocationCommand = new Command(UseCurrentLocationCommandHandler);
             AddLocationCommand = new Command(AddLocationCommandHandler);
         }
+
+       
 
         public override async void OnAppearing()
         {
@@ -62,13 +68,14 @@ namespace WeatherAppProject.ViewModels
                 MainState = LayoutState.None;
             }
         }
+       
         private async void AddLocationCommandHandler()
         {
             var param = new DialogParameters()
             {
                 { "fromPage" , "welcome" }
             };
-            
+            await _dialogService.ShowDialogAsync(nameof(AddLocationDialog), param);
         }
 
         private Task SaveLocationAndPlacemark(Location location, Placemark placemark)

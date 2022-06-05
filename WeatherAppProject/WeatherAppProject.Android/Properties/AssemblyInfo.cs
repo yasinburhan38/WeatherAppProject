@@ -16,10 +16,7 @@ using Xamarin.Forms;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
-[assembly: ExportFont("Lora-Regular.ttf", Alias = "lora")]
-[assembly: ExportFont("Lora-Bold.ttf", Alias = "lorabold")]
-[assembly: ExportFont("Lora-Italic.ttf")]
-[assembly: ExportFont("Lora-BoldItalic.ttf")]
+
 
 // Version information for an assembly consists of the following four values:
 //
