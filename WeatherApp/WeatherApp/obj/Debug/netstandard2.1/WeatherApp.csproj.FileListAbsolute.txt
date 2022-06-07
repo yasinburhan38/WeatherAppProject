@@ -1,0 +1,94 @@
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\bin\Debug\netstandard2.1\WeatherApp.deps.json
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\bin\Debug\netstandard2.1\WeatherApp.dll
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\bin\Debug\netstandard2.1\WeatherApp.pdb
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.AssemblyReference.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Styles\Colors.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Styles\Fonts.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Styles\Theme.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Dialogs\AddLocationDialog.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\ConnectionView.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\ErrorView.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\LoadingView.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\SideMenuView.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\SettingsPage.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Templates\LocationAddTemplate.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Templates\LocationItemTemplate.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Templates\LocationSelectedItemTemplate.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\WeatherPage.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\WelcomePage.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\YourLocationsPage.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.AssemblyInfoInputs.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.AssemblyInfo.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.CoreCompileInputs.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.Fody.CopyLocal.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.dll
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\refint\WeatherApp.dll
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.pdb
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Documenten\2ICT\semester 2\mobile apps\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\ref\WeatherApp.dll
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\bin\Debug\netstandard2.1\WeatherApp.deps.json
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\bin\Debug\netstandard2.1\WeatherApp.dll
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\bin\Debug\netstandard2.1\WeatherApp.pdb
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.AssemblyReference.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Styles\Colors.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Styles\Fonts.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Styles\Theme.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Dialogs\AddLocationDialog.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\ConnectionView.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\ErrorView.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\LoadingView.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\SideMenuView.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\SettingsPage.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Templates\LocationAddTemplate.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Templates\LocationItemTemplate.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Templates\LocationSelectedItemTemplate.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\WeatherPage.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\WelcomePage.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\YourLocationsPage.xaml.g.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.AssemblyInfoInputs.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.AssemblyInfo.cs
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.CoreCompileInputs.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.Fody.CopyLocal.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.dll
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\refint\WeatherApp.dll
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.pdb
+C:\Users\yasin\OneDrive - UC Leuven-Limburg\Bureaublad\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\ref\WeatherApp.dll
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\bin\Debug\netstandard2.1\WeatherApp.deps.json
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\bin\Debug\netstandard2.1\WeatherApp.dll
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\bin\Debug\netstandard2.1\WeatherApp.pdb
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.AssemblyReference.cache
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Styles\Colors.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Styles\Fonts.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Styles\Theme.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Dialogs\AddLocationDialog.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Dialogs\LoginDialog.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\ConnectionView.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\ErrorView.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\LoadingView.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Fragments\SideMenuView.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\SettingsPage.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Templates\LocationAddTemplate.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Templates\LocationItemTemplate.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\Templates\LocationSelectedItemTemplate.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\WeatherPage.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\WelcomePage.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\Views\YourLocationsPage.xaml.g.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.AssemblyInfoInputs.cache
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.AssemblyInfo.cs
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.CoreCompileInputs.cache
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.Fody.CopyLocal.cache
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.dll
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\refint\WeatherApp.dll
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\WeatherApp.pdb
+C:\Users\yasin\projects\Xamarin-WeatherApp-main\WeatherApp\WeatherApp\WeatherApp\obj\Debug\netstandard2.1\ref\WeatherApp.dll

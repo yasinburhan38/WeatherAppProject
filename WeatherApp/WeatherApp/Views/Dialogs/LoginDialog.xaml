@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+        xmlns:fragments="clr-namespace:WeatherApp.Views.Fragments"
+        x:Class="WeatherApp.Views.Dialogs.LoginDialog"
+        xmlns:prism="http://prismlibrary.com"
+        prism:ViewModelLocator.AutowireViewModel="True"
+        prism:DialogLayout.CloseOnBackgroundTapped="True"
+        prism:DialogLayout.RelativeWidthRequest=".85"
+        CornerRadius="24"
+        BackgroundColor="{AppThemeBinding Light={StaticResource LightCardUnselectedBackgroundColor}, Dark={StaticResource DarkCardUnselectedBackgroundColor}}">
+    <prism:DialogLayout.Mask>
+        <StackLayout BackgroundColor="{AppThemeBinding Light={StaticResource LightTransparentBackgroundColor}, Dark={StaticResource DarkTransparentBackgroundColor}}"
+                     HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand"></StackLayout>
+    </prism:DialogLayout.Mask>
+    <StackLayout
+        xct:StateLayout.CurrentState="{Binding MainState}" 
+        xct:StateLayout.AnimateStateChanges="True">
+        <xct:StateLayout.StateViews>
+            <xct:StateView
+                StateKey="Loading"
+                VerticalOptions="FillAndExpand">
+                <fragments:LoadingView/>
+            </xct:StateView>
+        </xct:StateLayout.StateViews>
+        <Label Text="Log je in"
+               TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
+               FontSize="{StaticResource Headline4FontSize}"
+               FontFamily="FrankRuhle_Medium"
+               HorizontalOptions="StartAndExpand"/>
+        <Frame
+            HasShadow="False"
+            Padding="4"
+            CornerRadius="24"
+            Margin="0, 8, 0, 8"
+            BackgroundColor="{AppThemeBinding Light={StaticResource LightCardBackgroundColor}, Dark={StaticResource DarkCardBackgroundColor}}">
+            <StackLayout>
+                <Entry
+                x:Name="username"
+                Margin="8, 0, 8, 0"
+                Text="{Binding Username }"
+                Placeholder="Vul je gebruikersnaam in."
+                PlaceholderColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
+                TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}">
+                    <Entry.Effects>
+                        <xct:RemoveBorderEffect></xct:RemoveBorderEffect>
+                    </Entry.Effects>
+                </Entry>
+            <Entry
+                x:Name="password"
+                Margin="8, 0, 8, 0"
+                Text="{Binding Wachtwoord }"
+                IsPassword="True"
+                Placeholder="Vul je wachtwoord in."
+                PlaceholderColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}"
+                TextColor="{AppThemeBinding Light={StaticResource LightPrimaryTextColor}, Dark={StaticResource DarkPrimaryTextColor}}">
+                    <Entry.Effects>
+                        <xct:RemoveBorderEffect></xct:RemoveBorderEffect>
+                    </Entry.Effects>
+                </Entry>
+            </StackLayout>
+        </Frame>
+
+        <Label
+            Margin="0, 0, 0, 8"
+            IsVisible="{Binding LoginSucceeded, Converter={StaticResource InvertedBoolConverter}}"
+            Text="Ongeldige gebruikersnaam en/of wachtwoord"
+            TextColor="{StaticResource FailColor}"></Label>
+        <Button 
+            Text="LOG IN"
+            FontFamily="Barlow_Medium"
+            FontSize="{StaticResource ButtonFontSize}"
+            BackgroundColor="{StaticResource AccentColor}"
+            TextColor="{StaticResource PrimaryDarkColor}"
+            Padding="8, 0, 8, 0"
+            Command="{Binding LoginCommand}"
+            CornerRadius="36"/>
+    </StackLayout>
+</Frame>
